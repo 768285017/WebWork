@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+    background-image: url(welcomebckgrd.jpg);
+    font-size:14px;
+}
+#loginForm{
+    width: 380px;
+    height: 230px;
+    background-color: rgb(21, 216, 206);
+    margin:200px auto;
+    padding-top: 30px;
+    border:1px solid #ccc;
+    border-radius: 1em ;
+
+}
+#loginForm p{
+    text-indent: 45px;
+}
+#userName,
+#password,
+#vCode{
+    height: 30px;
+    border: 1px solid #ccc;
+    /* text-indent: 24px; */
+}
+#userName{
+    width: 280px;
+    height: 25px;
+ 
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    background-position: 2px center; 
+}
+#password{
+    width: 280px;
+    height: 25px;
+
+    /* background-image: url(banner_extension.jpg); */
+    /* background-repeat: no-repeat;
+    background-position: 2px center; */
+}
+#vcode{
+    background-image: url(); 
+    background-repeat: no-repeat; 
+    background-position: 2px center; 
+}
+#vcodeImg{
+    cursor: pointer;
+    border:0;
+    height: 30px;
+    vertical-align: middle;
+}
+#btLogin{
+    width: 280px;
+    height: 35px;
+    background-color:rgb(76, 196, 65);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
